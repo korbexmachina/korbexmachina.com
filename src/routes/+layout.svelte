@@ -9,7 +9,7 @@
 	<main>
 		<slot />
 	</main>
-
+	
 	<footer>
 		<p>Check out my <a href="https://github.com/Korbexmachina">GitHub</a>!</p>
 	</footer>

@@ -38,6 +38,16 @@
 	</h2>
 
 	<Counter />
+
+	<div class='links'>
+		<button class='button' onclick='location.href="https://github.com/Korbexmachina"'>
+			GitHub
+		</button>
+			<div class='button'>
+			<a href='https://github.com/Korbexmachina'>GitHub</a>
+		</div>
+	</div>
+
 </section>
 
 <style>
@@ -83,5 +93,42 @@
 	.subheading {
 		padding: 0;
 		margin: 0;
+	}
+
+	.links {
+	    display: flex;
+	}
+
+	.button {
+	    flex: 1;
+	    border: 2px solid yellow;
+	}  
+
+	.links:first-child {
+	   margin-right: 20px;
+	} 
+
+	.button {
+		font-size: inherit;
+		font-family: inherit;
+		border-radius: 8px;
+		border: 1px solid transparent;
+		padding: 0.6em 1.6em;
+		font-weight: 500;
+		background-color: #313244;
+		cursor: pointer;
+		transition: border-color 0.25s;
+		position: relative;
+		right: 0;
+	}
+
+	.button:hover {
+		border-color: #cba6f7;
+		color: #cba6f7;
+	}
+
+	.button:focus,
+	.button:focus-visible {
+	outline: 4px auto -webkit-focus-ring-color;
 	}
 </style>
