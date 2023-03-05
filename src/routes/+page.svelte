@@ -10,25 +10,64 @@
 </svelte:head>
 
 <section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
+	<h1 class="name">
+   		<span style="--i:17">K</span>
+   		<span style="--i:12">o</span>
+   		<span style="--i:23">r</span>
+   		<span style="--i:14">b</span>
+   		<span style="--i:35">e</span>
+   		<span style="--i:26">n</span>
+  	</h1>
 
-		to your new<br />SvelteKit app
-	</h1>
+  	<h1 class="name">
+   		<span style="--i:18">T</span>
+   		<span style="--i:39">o</span>
+   		<span style="--i:21">m</span>
+  		 <span style="--i:12">p</span>
+   		<span style="--i:33">k</span>
+   		<span style="--i:19">i</span>
+   		<span style="--i:15">n</span>
+  	</h1>
 
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
+	<h2 class='subheading'>
+		Computer Science BS
+	</h2>
+
+	<h2 class='subheading'>
+		UCSC '26'
 	</h2>
 
 	<Counter />
 </section>
 
 <style>
+	.name {
+  		padding: 0;
+  		margin: 0;
+  		box-sizing: border-box;
+		}
+	.name {
+		position: relative;
+	}
+	.name span {
+		position: relative;
+		display: inline-block;
+		font-size: 40px;
+		color: #6c6f85;
+		text-transform: uppercase;
+		animation: flip 5s infinite;
+		animation-delay: calc(.01s * var(--i))
+	}
+	@keyframes flip {
+		0%,80% {
+			transform: rotateY(360deg) 
+		}
+	}
+	@keyframes textclip {
+		to {
+			background-position: 200% center;
+		}
+	}
 	section {
 		display: flex;
 		flex-direction: column;
@@ -41,19 +80,8 @@
 		width: 100%;
 	}
 
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
+	.subheading {
+		padding: 0;
+		margin: 0;
 	}
 </style>

@@ -11,7 +11,7 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>Check out my <a href="https://github.com/Korbexmachina">GitHub</a>!</p>
 	</footer>
 </div>
 
@@ -42,7 +42,7 @@
 	}
 
 	footer a {
-		font-weight: bold;
+		font-weight: normal;
 	}
 
 	@media (min-width: 480px) {
