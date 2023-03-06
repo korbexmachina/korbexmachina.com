@@ -29,6 +29,8 @@
    		<span style="--i:15">n</span>
   	</h1>
 
+	<hr class="solid">
+
 	<h2 class='subheading'>
 		Computer Science BS
 	</h2>
@@ -39,13 +41,13 @@
 
 	<Counter />
 
+	<h3>Links</h3>
+
 	<div class='links'>
-		<button class='button' onclick='location.href="https://github.com/Korbexmachina"'>
-			GitHub
-		</button>
-			<div class='button'>
-			<a href='https://github.com/Korbexmachina'>GitHub</a>
-		</div>
+		<!-- ? The onclick errors are not real -->
+		<button class='button' onclick='location.href="https://www.linkedin.com/in/korbentompkin/"'><p>LinkedIn</p></button>
+		<button class='button' onclick='location.href="https://github.com/Korbexmachina"'><p>GitHub</p></button>
+		<button class='button' onclick='location.href="https://universeodon.com/@korbexmachina"'><p>Mastodon</p></button>
 	</div>
 
 </section>
@@ -78,6 +80,15 @@
 			background-position: 200% center;
 		}
 	}
+
+	/* Solid border divider */
+	hr.solid {
+  		border-top: 3px solid #bbb;
+		border-radius: 8px;
+		border-color: #6c7086;
+		width: 100%;
+	}
+
 	section {
 		display: flex;
 		flex-direction: column;
@@ -88,6 +99,17 @@
 
 	h1 {
 		width: 100%;
+	}
+
+	h3 {
+		font-weight: normal;
+	}
+
+	p {
+		color: #cdd6f4;
+		padding: 0;
+  		margin: 0;
+  		box-sizing: border-box;
 	}
 
 	.subheading {
@@ -120,11 +142,16 @@
 		transition: border-color 0.25s;
 		position: relative;
 		right: 0;
+		margin-right: 20px;
+		margin-left: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 130px;
+		text-align: center;
 	}
 
 	.button:hover {
 		border-color: #cba6f7;
-		color: #cba6f7;
 	}
 
 	.button:focus,
