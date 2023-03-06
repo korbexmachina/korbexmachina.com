@@ -41,11 +41,11 @@
 	
 	<hr class="solid-small">
 
-	<img class='gh-stats' src='https://raw.githubusercontent.com/korbexmachina/github-stats/master/generated/languages.svg#gh-dark-mode-only' alt='Korbexmachina GitHub Statistics'>
-
 	<!-- <Counter /> -->
 
-	<h3>Links</h3>
+	<h3 class='links'>Links</h3>
+
+	<hr class="solid-smallest">
 
 	<div class='links'>
 		<!-- ? The onclick errors are not real -->
@@ -100,8 +100,11 @@
 		width: 25%;
 	}
 
-	.gh-stats {
-		max-width: 100%;
+	hr.solid-smallest {
+  		border-top: 3px solid #bbb;
+		border-radius: 8px;
+		border-color: #6c7086;
+		width: 12.5%;
 	}
 
 	section {
@@ -116,8 +119,10 @@
 		width: 100%;
 	}
 
-	h3 {
+	h3.links {
 		font-weight: normal;
+		padding: 0;
+  		margin: 0;
 	}
 
 	p {

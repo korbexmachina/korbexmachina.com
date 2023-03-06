@@ -66,7 +66,7 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: #6c7086;
+		--background: #313244;
 	}
 
 	svg {
