@@ -38,8 +38,12 @@
 	<h2 class='subheading'>
 		UCSC '26'
 	</h2>
+	
+	<hr class="solid-small">
 
-	<Counter />
+	<img class='gh-stats' src='https://raw.githubusercontent.com/korbexmachina/github-stats/master/generated/languages.svg#gh-dark-mode-only' alt='Korbexmachina GitHub Statistics'>
+
+	<!-- <Counter /> -->
 
 	<h3>Links</h3>
 
@@ -65,7 +69,7 @@
 		position: relative;
 		display: inline-block;
 		font-size: 40px;
-		color: #6c6f85;
+		color: #74c7ec;
 		text-transform: uppercase;
 		animation: flip 5s infinite;
 		animation-delay: calc(.01s * var(--i))
@@ -86,7 +90,18 @@
   		border-top: 3px solid #bbb;
 		border-radius: 8px;
 		border-color: #6c7086;
-		width: 100%;
+		width: 50%;
+	}
+
+	hr.solid-small {
+  		border-top: 3px solid #bbb;
+		border-radius: 8px;
+		border-color: #6c7086;
+		width: 25%;
+	}
+
+	.gh-stats {
+		max-width: 100%;
 	}
 
 	section {
@@ -119,6 +134,9 @@
 
 	.links {
 	    display: flex;
+		flex-wrap: wrap;
+		position: relative;
+		justify-content: center;
 	}
 
 	.button {
@@ -142,11 +160,12 @@
 		transition: border-color 0.25s;
 		position: relative;
 		right: 0;
-		margin-right: 20px;
-		margin-left: 20px;
+		margin-right: 10px;
+		margin-left: 10px;
 		margin-top: 10px;
 		margin-bottom: 10px;
 		width: 130px;
+		max-width: 33%;
 		text-align: center;
 	}
 
