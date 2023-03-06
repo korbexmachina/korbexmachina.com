@@ -36,7 +36,7 @@
 	</h2>
 
 	<h2 class='subheading'>
-		UCSC '26'
+		UCSC '25
 	</h2>
 	
 	<hr class="solid-small">
