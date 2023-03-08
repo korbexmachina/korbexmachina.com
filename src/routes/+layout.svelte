@@ -11,6 +11,9 @@
 	</main>
 	
 	<footer>
+		<p class="slugs">
+			<strong class='slugs'>Go Slugs!</strong>
+		</p>
 		<p>This project is on <a href="https://github.com/Korbexmachina">GitHub</a>!</p>
 	</footer>
 </div>
@@ -49,5 +52,13 @@
 		footer {
 			padding: 12px 0;
 		}
+	}
+
+	p.slugs {
+		align-self: center;
+	}
+
+	strong.slugs {
+		color: #f9e2af;
 	}
 </style>
