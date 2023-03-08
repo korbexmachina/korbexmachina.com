@@ -4,9 +4,11 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { mdsvex } from 'mdsvex';
 import { vitePreprocess } from '@sveltejs/kit/vite';
+import { assets, base } from '$app/paths';
 
 const dirname = path.resolve(fileURLToPath(import.meta.url), '../')
 const dev = process.argv.includes('dev');
+const base = base;
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -35,7 +37,7 @@ const config = {
       	strict: true
     }),
 	paths: {
-      base: dev ? '' : '/korbexmachina.com',
+      base: base ? '' : '/korbexmachina.com',
     }
 	}
 };
