@@ -8,7 +8,7 @@ import { assets, base } from '$app/paths';
 
 const dirname = path.resolve(fileURLToPath(import.meta.url), '../')
 const dev = process.argv.includes('dev');
-const base = base;
+// const base = base;
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
