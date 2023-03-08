@@ -21,7 +21,7 @@
 		</ul>
 	</div>
 
-	<p>
+	<p class="slugs">
 		<strong class='slugs'>Go Slugs!</strong>
 	</p>
 </div>
@@ -29,6 +29,10 @@
 <style>
 	strong.name {
 		color: #f38ba8;
+	}
+
+	p.slugs {
+		align-self: center;
 	}
 
 	strong.slugs {
