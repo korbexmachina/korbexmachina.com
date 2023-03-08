@@ -6,6 +6,11 @@
         max-width: 100%;
         align-self: center;
         text-align: left;
-        color: #74c7ec;
+        font-size: 1em;
+        color: #cdd6f4;
+    }
+
+    strong.link {
+        color: #f38ba8;
     }
 </style>

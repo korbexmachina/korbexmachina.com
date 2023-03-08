@@ -1,7 +1,5 @@
-<script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+<script lang='ts'>
+	import AboutMe from './About-me.svelte';
 </script>
 
 <svelte:head>
@@ -38,14 +36,10 @@
 	<h2 class='subheading'>
 		UCSC '25
 	</h2>
-	
-	<hr class="solid-small">
 
-	<!-- <Counter /> -->
+	<AboutMe />
 
 	<h3 class='links'>Links</h3>
-
-	<hr class="solid-smallest">
 
 	<div class='links'>
 		<!-- ? The onclick errors are not real -->
