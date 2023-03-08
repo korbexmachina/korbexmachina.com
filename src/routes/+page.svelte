@@ -87,6 +87,7 @@
 		width: 50%;
 	}
 
+	/* Smaller Version */
 	hr.solid-small {
   		border-top: 3px solid #bbb;
 		border-radius: 8px;

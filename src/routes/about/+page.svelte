@@ -1,29 +1,14 @@
+<script>
+	import Resume from './resume.md';
+</script>
+
 <svelte:head>
 	<title>About</title>
 	<meta name="description" content="About me" />
 </svelte:head>
 
 <div class="text-column">
-	<h1>About me</h1>
-
-	<p>
-		Hi, my name is <strong class='name'>Korben</strong>! I'm a full stack developer, currently studying at UC Santa Cruz.
-	</p>
-
-	<div>
-		<p>In addition to software development, my hobbies include:</p>
-		<ul class='hobbies'>
-			<li>Mountain Biking</li>
-			<li>Improv Comedy</li>
-			<li>Drumming</li>
-			<li>Hiking</li>
-			<li>And much more...</li>
-		</ul>
-	</div>
-
-	<p class="slugs">
-		<strong class='slugs'>Go Slugs!</strong>
-	</p>
+	<Resume/>
 </div>
 
 <style>

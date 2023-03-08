@@ -18,23 +18,11 @@
 			<li>And much more...</li>
 		</ul>
 	</div>
-
-	<p class="slugs">
-		<strong class='slugs'>Go Slugs!</strong>
-	</p>
 </div>
 
 <style>
 	strong.name {
 		color: #74c7ec;
-	}
-
-	p.slugs {
-		align-self: center;
-	}
-
-	strong.slugs {
-		color: #f9e2af;
 	}
 
 	ul.hobbies {
