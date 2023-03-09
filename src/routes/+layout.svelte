@@ -9,10 +9,10 @@
 	<main>
 		<slot />
 	</main>
-	
+
 	<footer>
 		<p class="slugs">
-			<strong class='slugs'>Go Slugs!</strong>
+			<strong class="slugs">Go Slugs!</strong>
 		</p>
 		<p>This project is on <a href="https://github.com/Korbexmachina">GitHub</a>!</p>
 	</footer>

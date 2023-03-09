@@ -8,7 +8,7 @@
 </svelte:head>
 
 <div class="text-column">
-	<Resume/>
+	<Resume />
 </div>
 
 <style>
@@ -25,8 +25,8 @@
 	}
 
 	ul.hobbies {
-		list-style:-moz-radial-gradient(#f9e2af, #f38ba8);
-		list-style:-webkit-radial-gradient(#f9e2af, #f38ba8);
-		list-style:-o-radial-gradient(#f9e2af, #f38ba8);
+		list-style: -moz-radial-gradient(#f9e2af, #f38ba8);
+		list-style: -webkit-radial-gradient(#f9e2af, #f38ba8);
+		list-style: -o-radial-gradient(#f9e2af, #f38ba8);
 	}
 </style>

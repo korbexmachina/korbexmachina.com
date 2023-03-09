@@ -5,12 +5,13 @@
 
 <div class="text-column">
 	<p>
-		Hi, my name is <strong class='name'>Korben</strong>! I'm a full stack developer, currently studying at UC Santa Cruz.
+		Hi, my name is <strong class="name">Korben</strong>! I'm a full stack developer, currently
+		studying at UC Santa Cruz.
 	</p>
 
 	<div>
 		<p>In addition to software development, my hobbies include:</p>
-		<ul class='hobbies'>
+		<ul class="hobbies">
 			<li>Mountain Biking</li>
 			<li>Improv Comedy</li>
 			<li>Drumming</li>
@@ -26,8 +27,8 @@
 	}
 
 	ul.hobbies {
-		list-style:-moz-radial-gradient(#f9e2af, #f38ba8);
-		list-style:-webkit-radial-gradient(#f9e2af, #f38ba8);
-		list-style:-o-radial-gradient(#f9e2af, #f38ba8);
+		list-style: -moz-radial-gradient(#f9e2af, #f38ba8);
+		list-style: -webkit-radial-gradient(#f9e2af, #f38ba8);
+		list-style: -o-radial-gradient(#f9e2af, #f38ba8);
 	}
 </style>

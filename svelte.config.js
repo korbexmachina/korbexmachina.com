@@ -10,12 +10,12 @@ const config = {
 	// for more information about preprocessors
 
 	extensions: ['.svelte', '.md', '.svx'],
-    preprocess: [
+	preprocess: [
 		vitePreprocess(),
-        mdsvex({
-            extensions: ['.md', '.svx'],
-        })
-    ],
+		mdsvex({
+			extensions: ['.md', '.svx']
+		})
+	],
 
 	// ! DO NOT CHANGE
 	kit: {

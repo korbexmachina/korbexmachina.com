@@ -1,4 +1,4 @@
-<script lang='ts'>
+<script lang="ts">
 	import AboutMe from './About-me.svelte';
 </script>
 
@@ -9,53 +9,54 @@
 
 <section>
 	<h1 class="name">
-   		<span style="--i:17">K</span>
-   		<span style="--i:12">o</span>
-   		<span style="--i:23">r</span>
-   		<span style="--i:14">b</span>
-   		<span style="--i:35">e</span>
-   		<span style="--i:26">n</span>
-  	</h1>
+		<span style="--i:17">K</span>
+		<span style="--i:12">o</span>
+		<span style="--i:23">r</span>
+		<span style="--i:14">b</span>
+		<span style="--i:35">e</span>
+		<span style="--i:26">n</span>
+	</h1>
 
-  	<h1 class="name">
-   		<span style="--i:18">T</span>
-   		<span style="--i:39">o</span>
-   		<span style="--i:21">m</span>
-  		<span style="--i:12">p</span>
-   		<span style="--i:33">k</span>
-   		<span style="--i:19">i</span>
-   		<span style="--i:15">n</span>
-  	</h1>
+	<h1 class="name">
+		<span style="--i:18">T</span>
+		<span style="--i:39">o</span>
+		<span style="--i:21">m</span>
+		<span style="--i:12">p</span>
+		<span style="--i:33">k</span>
+		<span style="--i:19">i</span>
+		<span style="--i:15">n</span>
+	</h1>
 
-	<hr class="solid">
+	<hr class="solid" />
 
-	<h2 class='subheading'>
-		Computer Science BS
-	</h2>
+	<h2 class="subheading">Computer Science BS</h2>
 
-	<h2 class='subheading'>
-		UCSC '25
-	</h2>
+	<h2 class="subheading">UCSC '25</h2>
 
 	<AboutMe />
 
-	<h3 class='links'>Links</h3>
+	<h3 class="links">Links</h3>
 
-	<div class='links'>
+	<div class="links">
 		<!-- ? The onclick errors are not real -->
-		<button class='button' onclick='location.href="https://www.linkedin.com/in/korbentompkin/"'><p>LinkedIn</p></button>
-		<button class='button' onclick='location.href="https://github.com/Korbexmachina"'><p>GitHub</p></button>
-		<button class='button' onclick='location.href="https://universeodon.com/@korbexmachina"'><p>Mastodon</p></button>
+		<button class="button" onclick="location.href="https://www.linkedin.com/in/korbentompkin/""
+			><p>LinkedIn</p></button
+		>
+		<button class="button" onclick="location.href="https://github.com/Korbexmachina""
+			><p>GitHub</p></button
+		>
+		<button class="button" onclick="location.href="https://universeodon.com/@korbexmachina""
+			><p>Mastodon</p></button
+		>
 	</div>
-
 </section>
 
 <style>
 	.name {
-  		padding: 0;
-  		margin: 0;
-  		box-sizing: border-box;
-		}
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
 	.name {
 		position: relative;
 	}
@@ -66,11 +67,12 @@
 		color: #74c7ec;
 		text-transform: uppercase;
 		animation: flip 5s infinite;
-		animation-delay: calc(.01s * var(--i))
+		animation-delay: calc(0.01s * var(--i));
 	}
 	@keyframes flip {
-		0%,80% {
-			transform: rotateY(360deg) 
+		0%,
+		80% {
+			transform: rotateY(360deg);
 		}
 	}
 	@keyframes textclip {
@@ -81,7 +83,7 @@
 
 	/* Solid border divider */
 	hr.solid {
-  		border-top: 3px solid #bbb;
+		border-top: 3px solid #bbb;
 		border-radius: 8px;
 		border-color: #6c7086;
 		width: 50%;
@@ -89,14 +91,14 @@
 
 	/* Smaller Version */
 	hr.solid-small {
-  		border-top: 3px solid #bbb;
+		border-top: 3px solid #bbb;
 		border-radius: 8px;
 		border-color: #6c7086;
 		width: 25%;
 	}
 
 	hr.solid-smallest {
-  		border-top: 3px solid #bbb;
+		border-top: 3px solid #bbb;
 		border-radius: 8px;
 		border-color: #6c7086;
 		width: 12.5%;
@@ -117,14 +119,14 @@
 	h3.links {
 		font-weight: normal;
 		padding: 0;
-  		margin: 0;
+		margin: 0;
 	}
 
 	p {
 		color: #cdd6f4;
 		padding: 0;
-  		margin: 0;
-  		box-sizing: border-box;
+		margin: 0;
+		box-sizing: border-box;
 	}
 
 	.subheading {
@@ -133,20 +135,20 @@
 	}
 
 	.links {
-	    display: flex;
+		display: flex;
 		flex-wrap: wrap;
 		position: relative;
 		justify-content: center;
 	}
 
 	.button {
-	    flex: 1;
-	    border: 2px solid yellow;
-	}  
+		flex: 1;
+		border: 2px solid yellow;
+	}
 
 	.links:first-child {
-	   margin-right: 20px;
-	} 
+		margin-right: 20px;
+	}
 
 	.button {
 		font-size: inherit;
@@ -175,6 +177,6 @@
 
 	.button:focus,
 	.button:focus-visible {
-	outline: 4px auto -webkit-focus-ring-color;
+		outline: 4px auto -webkit-focus-ring-color;
 	}
 </style>
