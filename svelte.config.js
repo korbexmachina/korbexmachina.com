@@ -1,10 +1,14 @@
-import adapter from '@sveltejs/adapter-auto';
+// import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { mdsvex } from 'mdsvex';
 import { vitePreprocess } from '@sveltejs/kit/vite';
+// import { assets, base } from '$app/paths';
 
-const dirname = path.resolve(fileURLToPath(import.meta.url), '../')
+// const dirname = path.resolve(fileURLToPath(import.meta.url), '../')
+const dev = process.argv.includes('dev');
+// const base = base;
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -19,11 +23,12 @@ const config = {
         })
     ],
 
+	// ! DO NOT CHANGE
 	kit: {
-		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.
-		// If your environment is not supported or you settled on a specific environment, switch out the adapter.
-		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
-		adapter: adapter()
+		adapter: adapter(),
+		alias: {
+			$lib: 'lib'
+		}
 	}
 };
 
