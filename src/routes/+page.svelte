@@ -39,13 +39,13 @@
 
 	<div class="links">
 		<!-- ? The onclick errors are not real -->
-		<button class="button" onclick="location.href="https://www.linkedin.com/in/korbentompkin/""
+		<button class="button" onclick="location.href='https://www.linkedin.com/in/korbentompkin/'"
 			><p>LinkedIn</p></button
 		>
-		<button class="button" onclick="location.href="https://github.com/Korbexmachina""
+		<button class="button" onclick="location.href='https://github.com/Korbexmachina'"
 			><p>GitHub</p></button
 		>
-		<button class="button" onclick="location.href="https://universeodon.com/@korbexmachina""
+		<button class="button" onclick="location.href='https://universeodon.com/@korbexmachina'"
 			><p>Mastodon</p></button
 		>
 	</div>
