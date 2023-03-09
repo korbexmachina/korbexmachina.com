@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { mdsvex } from 'mdsvex';
 import { vitePreprocess } from '@sveltejs/kit/vite';
+import { base } from '$app/paths';
 
 const dev = process.argv.includes('dev');
 
@@ -22,8 +23,8 @@ const config = {
 	// ! DO NOT CHANGE
 	kit: {
 		adapter: adapter(),
-		alias: {
-			$lib: 'lib'
+		paths: {
+			base: '/korbexmachina.com'
 		}
 	}
 };
