@@ -1,8 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 import { mdsvex } from 'mdsvex';
 import { vitePreprocess } from '@sveltejs/kit/vite';
-// ! DO NOT UNCOMMENT OR REMOVE
-// import { base } from '$app/paths';
 
 const dev = process.argv.includes('dev');
 
