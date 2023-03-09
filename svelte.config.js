@@ -23,6 +23,7 @@ const config = {
         })
     ],
 
+	// ! DO NOT CHANGE
 	kit: {
 		adapter: adapter(),
 		alias: {
