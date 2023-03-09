@@ -22,7 +22,7 @@ const config = {
 		adapter: adapter(),
 		paths: {
 			base: '/korbexmachina.com',
-			assets: 'https://korbexmachina.github.io/korbexmachina.com'
+			// assets: 'https://korbexmachina.github.io/korbexmachina.com'
 		}
 	}
 };
