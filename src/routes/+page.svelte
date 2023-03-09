@@ -37,18 +37,10 @@
 
 	<h3 class="links">Links</h3>
 
-	<!-- TODO: Change buttons to <a> -->
 	<div class="links">
-		<!-- ? The onclick errors are not real -->
-		<button class="button" onclick="location.href='https://www.linkedin.com/in/korbentompkin/'"
-			><p>LinkedIn</p></button
-		>
-		<button class="button" onclick="location.href='https://github.com/Korbexmachina'"
-			><p>GitHub</p></button
-		>
-		<button class="button" onclick="location.href='https://universeodon.com/@korbexmachina'"
-			><p>Mastodon</p></button
-		>
+		<a class="button" href='https://www.linkedin.com/in/korbentompkin/'><p>LinkedIn</p></a>
+		<a class="button" href='https://github.com/Korbexmachina'><p>GitHub</p></a>
+		<a class="button" href='https://universeodon.com/@korbexmachina'><p>Mastodon</p></a>
 	</div>
 </section>
 
@@ -90,21 +82,6 @@
 		width: 50%;
 	}
 
-	/* Smaller Version */
-	hr.solid-small {
-		border-top: 3px solid #bbb;
-		border-radius: 8px;
-		border-color: #6c7086;
-		width: 25%;
-	}
-
-	hr.solid-smallest {
-		border-top: 3px solid #bbb;
-		border-radius: 8px;
-		border-color: #6c7086;
-		width: 12.5%;
-	}
-
 	section {
 		display: flex;
 		flex-direction: column;
@@ -142,9 +119,10 @@
 		justify-content: center;
 	}
 
-	.button {
+	a.button {
 		flex: 1;
-		border: 2px solid yellow;
+		border: 2px solid transparent;
+		text-decoration: none;
 	}
 
 	.links:first-child {
