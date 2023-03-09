@@ -37,6 +37,7 @@
 
 	<h3 class="links">Links</h3>
 
+	<!-- TODO: Change buttons to <a> -->
 	<div class="links">
 		<!-- ? The onclick errors are not real -->
 		<button class="button" onclick="location.href='https://www.linkedin.com/in/korbentompkin/'"
