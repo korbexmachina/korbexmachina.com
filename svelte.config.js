@@ -1,9 +1,8 @@
 import adapter from '@sveltejs/adapter-static';
-import path from 'path';
-import { fileURLToPath } from 'url';
 import { mdsvex } from 'mdsvex';
 import { vitePreprocess } from '@sveltejs/kit/vite';
-import { base } from '$app/paths';
+// ! DO NOT UNCOMMENT OR REMOVE
+// import { base } from '$app/paths';
 
 const dev = process.argv.includes('dev');
 
