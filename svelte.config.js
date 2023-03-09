@@ -21,7 +21,8 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: '/korbexmachina.com'
+			base: '/korbexmachina.com',
+			assets: 'https://korbexmachina.github.io'
 		}
 	}
 };
