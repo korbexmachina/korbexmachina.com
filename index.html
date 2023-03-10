@@ -7,12 +7,12 @@
 		<meta http-equiv="content-security-policy" content="">
 		<link href="https://korbexmachina.github.io/korbexmachina.com/_app/immutable/assets/_layout.41228b31.css" rel="stylesheet">
 		<link href="https://korbexmachina.github.io/korbexmachina.com/_app/immutable/assets/_page.ce33e566.css" rel="stylesheet">
-		<link rel="modulepreload" href="https://korbexmachina.github.io/korbexmachina.com/_app/immutable/entry/start.cf82735c.js">
+		<link rel="modulepreload" href="https://korbexmachina.github.io/korbexmachina.com/_app/immutable/entry/start.44f360d0.js">
 		<link rel="modulepreload" href="https://korbexmachina.github.io/korbexmachina.com/_app/immutable/chunks/index.b5fa6277.js">
-		<link rel="modulepreload" href="https://korbexmachina.github.io/korbexmachina.com/_app/immutable/chunks/singletons.4b7fcda4.js">
-		<link rel="modulepreload" href="https://korbexmachina.github.io/korbexmachina.com/_app/immutable/entry/app.90be0888.js">
-		<link rel="modulepreload" href="https://korbexmachina.github.io/korbexmachina.com/_app/immutable/entry/_layout.svelte.2ca0c38f.js">
-		<link rel="modulepreload" href="https://korbexmachina.github.io/korbexmachina.com/_app/immutable/chunks/stores.851f2299.js">
+		<link rel="modulepreload" href="https://korbexmachina.github.io/korbexmachina.com/_app/immutable/chunks/singletons.1a375c4f.js">
+		<link rel="modulepreload" href="https://korbexmachina.github.io/korbexmachina.com/_app/immutable/entry/app.bb3054dd.js">
+		<link rel="modulepreload" href="https://korbexmachina.github.io/korbexmachina.com/_app/immutable/entry/_layout.svelte.be4e1817.js">
+		<link rel="modulepreload" href="https://korbexmachina.github.io/korbexmachina.com/_app/immutable/chunks/stores.882c953d.js">
 		<link rel="modulepreload" href="https://korbexmachina.github.io/korbexmachina.com/_app/immutable/entry/_page.svelte.99a5ee67.js">
 		<link rel="modulepreload" href="https://korbexmachina.github.io/korbexmachina.com/_app/immutable/entry/_page.ts.9c5eea7e.js">
 		<link rel="modulepreload" href="https://korbexmachina.github.io/korbexmachina.com/_app/immutable/chunks/_page.da46b06b.js"><title>About</title><!-- HEAD_svelte-t32ptj_START --><meta name="description" content="Svelte demo app"><!-- HEAD_svelte-t32ptj_END --><!-- HEAD_svelte-15hgu2d_START --><meta name="description" content="About me"><!-- HEAD_svelte-15hgu2d_END -->
@@ -24,9 +24,9 @@
 <div class="app svelte-16vmnrp"><header class="svelte-1x3dbw3"><div class="corner svelte-1x3dbw3"></div>
 
 	<nav class="svelte-1x3dbw3"><svg viewBox="0 0 2 3" aria-hidden="true" class="svelte-1x3dbw3"><path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" class="svelte-1x3dbw3"></path></svg>
-		<ul class="svelte-1x3dbw3"><li class="svelte-1x3dbw3"><a href="/korbexmachina.com" class="svelte-1x3dbw3">Home</a></li>
-			<li class="svelte-1x3dbw3"><a href="/korbexmachina.com/about" class="svelte-1x3dbw3">About</a></li>
-			<li class="svelte-1x3dbw3"><a href="/korbexmachina.com/blog" class="svelte-1x3dbw3">Blog</a></li></ul>
+		<ul class="svelte-1x3dbw3"><li aria-current="page" class="svelte-1x3dbw3"><a href="/" class="svelte-1x3dbw3">Home</a></li>
+			<li class="svelte-1x3dbw3"><a href="/about" class="svelte-1x3dbw3">About</a></li>
+			<li class="svelte-1x3dbw3"><a href="/blog" class="svelte-1x3dbw3">Blog</a></li></ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true" class="svelte-1x3dbw3"><path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" class="svelte-1x3dbw3"></path></svg></nav>
 
 	<div class="corner svelte-1x3dbw3"></div>
@@ -84,20 +84,20 @@
 			
 			<script>
 				{
-					__sveltekit_ak8pap = {
+					__sveltekit_1ktnmfp = {
 						env: {},
 						assets: "https://korbexmachina.github.io/korbexmachina.com",
-						base: new URL("./korbexmachina.com", location).pathname,
+						base: new URL(".", location).pathname.slice(0, -1),
 						element: document.currentScript.parentElement
 					};
 
 					const data = [null,null];
 
 					Promise.all([
-						import("https://korbexmachina.github.io/korbexmachina.com/_app/immutable/entry/start.cf82735c.js"),
-						import("https://korbexmachina.github.io/korbexmachina.com/_app/immutable/entry/app.90be0888.js")
+						import("https://korbexmachina.github.io/korbexmachina.com/_app/immutable/entry/start.44f360d0.js"),
+						import("https://korbexmachina.github.io/korbexmachina.com/_app/immutable/entry/app.bb3054dd.js")
 					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_ak8pap.element, {
+						kit.start(app, __sveltekit_1ktnmfp.element, {
 							node_ids: [0, 2],
 							data,
 							form: null,
