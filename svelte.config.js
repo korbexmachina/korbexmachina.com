@@ -20,10 +20,6 @@ const config = {
 	// ! DO NOT CHANGE
 	kit: {
 		adapter: adapter(),
-		// paths: {
-		// 	base: '',
-		// 	assets: 'https://korbexmachina.github.io/korbexmachina.com'
-		// }
 	}
 };
 
