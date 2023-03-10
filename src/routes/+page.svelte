@@ -38,9 +38,9 @@
 	<h3 class="links">Links</h3>
 
 	<div class="links">
-		<a class="button" href='https://www.linkedin.com/in/korbentompkin/'><p>LinkedIn</p></a>
-		<a class="button" href='https://github.com/Korbexmachina'><p>GitHub</p></a>
-		<a class="button" href='https://universeodon.com/@korbexmachina'><p>Mastodon</p></a>
+		<a class="button" href='https://www.linkedin.com/in/korbentompkin/' target='_blank' rel='noopener noreferrer'><p>LinkedIn</p></a>
+		<a class="button" href='https://github.com/Korbexmachina' target='_blank' rel='noopener noreferrer'><p>GitHub</p></a>
+		<a class="button" href='https://universeodon.com/@korbexmachina' target='_blank' rel='noopener noreferrer'><p>Mastodon</p></a>
 	</div>
 </section>
 
