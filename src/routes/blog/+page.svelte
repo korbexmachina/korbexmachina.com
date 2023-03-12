@@ -16,4 +16,7 @@
 </body>
 
 <style>
+	body {
+		margin: 0.8em;
+	}
 </style>

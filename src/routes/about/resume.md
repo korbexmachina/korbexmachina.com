@@ -37,6 +37,7 @@
     }
 
     p.about {
+        margin: 0.8em;
         text-align: left;
     }
 

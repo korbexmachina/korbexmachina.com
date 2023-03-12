@@ -22,6 +22,9 @@
 </div>
 
 <style>
+	div.text-column {
+		margin: 0.8em;
+	}
 	strong.name {
 		color: #74c7ec;
 	}
