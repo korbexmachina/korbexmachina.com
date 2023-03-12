@@ -3,7 +3,7 @@
 <style>
 	div {
 		height: auto;
-		max-width: 100%;
+		max-width: 75%;
 		align-self: center;
 		text-align: left;
 		font-size: 1em;

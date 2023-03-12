@@ -12,21 +12,8 @@
 </div>
 
 <style>
-	strong.name {
-		color: #f38ba8;
-	}
-
-	p.slugs {
+	div.text-column {
+		position: relative;
 		align-self: center;
-	}
-
-	strong.slugs {
-		color: #f9e2af;
-	}
-
-	ul.hobbies {
-		list-style: -moz-radial-gradient(#f9e2af, #f38ba8);
-		list-style: -webkit-radial-gradient(#f9e2af, #f38ba8);
-		list-style: -o-radial-gradient(#f9e2af, #f38ba8);
 	}
 </style>

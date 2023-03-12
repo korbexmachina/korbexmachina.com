@@ -4,14 +4,14 @@
 	div {
 		height: auto;
 		max-width: 100%;
-        padding: 0.6em 1.6em;
+        padding: 0.6em 1em;
         width: 120px;
 		align-self: center;
 		text-align: center;
         align-items: center;
         background-color: #313244;
         border-radius: 8px;
-        margin: 1em;
+        margin: 0.8em;
         border: 1px solid transparent;
         transition: border-color 0.25s;
 	}
