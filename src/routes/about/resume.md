@@ -7,6 +7,7 @@
 <p class='about'>As a dedicated computer science student, I have a passion for full-stack development. Through my coursework and personal projects, I have worked with various different technologies, including Java, Python, Git, Linux, and Django. I am constantly seeking new challenges and opportunities to grow, and am currently studying RISC-V Assembly and C. My ability to learn quickly and solve complex problems makes me a valuable asset to any team.</p>
 
 # Skills
+
 <div class='pos'>
     <Skills>
         <p>Java</p>
@@ -27,6 +28,7 @@
         <p>Data Analysis</p>
         <p>Algorithms</p>
     </Skills>
+
 </div>
 
 <style>

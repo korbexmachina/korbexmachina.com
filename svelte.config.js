@@ -19,7 +19,7 @@ const config = {
 
 	// ! DO NOT CHANGE
 	kit: {
-		adapter: adapter(),
+		adapter: adapter()
 	}
 };
 

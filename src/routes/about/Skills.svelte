@@ -4,21 +4,20 @@
 	div {
 		height: auto;
 		max-width: 100%;
-        padding: 0.6em 1em;
-        width: 120px;
+		padding: 0.6em 1em;
+		width: 120px;
 		align-self: center;
 		text-align: center;
-        align-items: center;
-        background-color: #313244;
-        border-radius: 8px;
-        margin: 0.8em;
-        border: 1px solid transparent;
-        transition: border-color 0.25s;
+		align-items: center;
+		background-color: #313244;
+		border-radius: 8px;
+		margin: 0.8em;
+		border: 1px solid transparent;
+		transition: border-color 0.25s;
 	}
 
-    div:hover {
+	div:hover {
 		border-color: #cba6f7;
-        color: #b4befe;
+		color: #b4befe;
 	}
-
 </style>

@@ -14,7 +14,13 @@
 		<p class="slugs">
 			<strong class="slugs">Go Slugs!</strong>
 		</p>
-		<p>This project is on <a href="https://github.com/Korbexmachina/korbexmachina.com" target="_blank" rel="noopener noreferrer">GitHub</a>!</p>
+		<p>
+			This project is on <a
+				href="https://github.com/Korbexmachina/korbexmachina.com"
+				target="_blank"
+				rel="noopener noreferrer">GitHub</a
+			>!
+		</p>
 	</footer>
 </div>
 
