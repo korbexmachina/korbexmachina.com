@@ -127,6 +127,9 @@
 		margin: 0;
 	}
 
+	div.links {
+		margin: 0.9em;
+	}
 	.links {
 		display: flex;
 		flex-wrap: wrap;
@@ -140,9 +143,9 @@
 		text-decoration: none;
 	}
 
-	.links:first-child {
+	/* .links:first-child {
 		margin-right: 20px;
-	}
+	} */
 
 	.button {
 		font-size: inherit;
