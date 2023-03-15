@@ -2,6 +2,7 @@
 	import Post0 from './posts/post0.md';
 	import Post1 from './posts/post1.md';
 	import Post2 from './posts/post2.md';
+	import Post3 from './posts/post3.md';
 </script>
 
 <svelte:head>
@@ -10,6 +11,7 @@
 </svelte:head>
 
 <body>
+	<Post3 />
 	<Post2 />
 	<Post1 />
 	<Post0 />
