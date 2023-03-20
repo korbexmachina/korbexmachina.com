@@ -12,12 +12,8 @@
 		background-color: #313244;
 		border-radius: 8px;
 		margin: 0.8em;
-		border: 1px solid transparent;
-		transition: border-color 0.25s;
-	}
-
-	div:hover {
+		border: 2px solid transparent;
 		border-color: #cba6f7;
-		color: #b4befe;
+		transition: border-color 0.25s;
 	}
 </style>
