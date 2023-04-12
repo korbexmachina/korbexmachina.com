@@ -14,7 +14,7 @@
 		<p class="slugs">
 			<strong class="slugs">Go Slugs!</strong>
 		</p>
-		<!-- <p>Email me at <a class='email'href = "mailto: contact.korbexmachina@gmail.com">contact.korbexmachina@gmail.com</a></p> -->
+		<p>Email me at <a class='email'href = "mailto: contact.korbexmachina.com">contact@korbexmachina.com</a></p>
 		<p>
 			This project is on <a
 				href="https://github.com/Korbexmachina/korbexmachina.com"
