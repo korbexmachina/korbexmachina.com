@@ -17,6 +17,7 @@
         <p>HTML</p>
         <p>CSS</p>
         <p>Svelte</p>
+        <p>C</p>
     </Skills>
 
     <Skills>
@@ -27,6 +28,7 @@
         <p>Data Structures</p>
         <p>Data Analysis</p>
         <p>Algorithms</p>
+        <p>Markdown</p>
     </Skills>
 
 </div>
