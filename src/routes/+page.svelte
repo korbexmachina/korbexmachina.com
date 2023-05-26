@@ -54,7 +54,7 @@
 			class="button"
 			href="https://universeodon.com/@korbexmachina"
 			target="_blank"
-			rel="noopener noreferrer"><p>Mastodon</p></a
+			rel="me noopener noreferrer"><p>Mastodon</p></a
 		>
 	</div>
 </section>
