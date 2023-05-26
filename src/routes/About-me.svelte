@@ -13,6 +13,7 @@
 		<p>In addition to software development, my hobbies include:</p>
 		<ul class="hobbies">
 			<li>Mountain Biking</li>
+			<li>Swimming</li>
 			<li>Improv Comedy</li>
 			<li>Drumming</li>
 			<li>Hiking</li>
